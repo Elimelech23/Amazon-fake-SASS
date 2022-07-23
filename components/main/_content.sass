@@ -1,0 +1,42 @@
+/*.explorar .contenedor .cont-items
+    .cont-inciar-sesion
+        background-color: #fff
+
+    .cont-accesorios
+        background-color: black
+
+    .cont-vestidos
+        background-color: yellow
+
+    
+    
+@mixin cont($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4)
+  .explorar .contenedor .cont-#{$name}
+
+    @if $property1 == background-color
+        #{$property1}: $value1
+    @else 
+        background-color: #fff
+
+    @if $property2 == padding
+        #{$property2}: $value2
+    @else 
+        padding: 2px
+
+    @if $property3 == width
+        #{$property3}: $value3
+    @else 
+        width: $value3
+
+    @if $property4 == height
+        #{$property4}: $value4
+    @else 
+        height: $value4
+
+
+    
+    
+@include cont("inciar-sesion", background-color, #fff, padding, 2px, width, 24%, height, 100%)
+@include cont("accesorios", background-color, #fff, padding, 2px, width, 24%, height, 100%)
+@include cont("vestidos", background-color, #fff, padding, 2px, width, 24%, height, 100%)
+@include cont("categoria", background-color, #fff, padding, 2px, width, 24%, height, 100%)

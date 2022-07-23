@@ -1,0 +1,103 @@
+
+.navegacion .boton
+    width: 27%
+    gap: 2px
+    
+    .boton-carrito
+        display: flex
+        justify-content: center
+        align-items: center
+
+    .boton-carrito p
+        padding-top: 10px
+        
+        
+    
+    .boton-carrito img
+        width: 40px
+
+    .img-lenguaje
+        width: 50px
+        
+
+@mixin boton($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4, $property5, $value5, $property6, $value6, $property7, $value7)
+  .navegacion .boton-#{$name}
+
+    @if $property1 == width
+        #{$property1}: $value1
+    @else 
+        width: 20px
+
+
+    @if $property2 == height
+        #{$property2}: $value2
+    @else 
+        height: 50px
+    
+    @if $property3 == outline
+        #{$property3}: $value3
+    @else 
+        outline: 0px
+    
+
+    @if $property4 == border
+        #{$property4}: $value4
+    @else 
+        border: solid 2px #fff
+    
+
+    @if $property5 == font-weight
+        #{$property5}: $value5
+    @else 
+        font-weight: bold
+    
+
+    @if $property6 == background-color
+        #{$property6}: $value6
+    @else 
+        background-color: red
+
+
+    @if $property7 == color
+        #{$property7}: $value7
+    @else 
+        color: #fff
+
+@include boton("lenguaje", width, 60px, height, 50px, outline, 0, border, 0, font-weight, bold, background-color, transparent, color, #fff)
+@include boton("cuenta", width, 150px, height, 50px, outline, 0, border, 0, font-weight, bold, background-color,transparent, color, #ffffff)
+@include boton("devoluciones", width, 110px, height, 50px, outline, 0, border, 0, font-weight, bold, background-color, transparent, color, #ffffff)
+@include boton("carrito", width, 120px, height, 50px, outline, 0, border, 0, font-weight, bold, background-color, transparent, color, #ffffff)
+
+//---------------hover-----------//
+
+@mixin boton($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4)
+  .navegacion .boton-#{$name}
+
+    @if $property1 == background-color
+        #{$property1}: $value1
+    @else 
+        background-color: transparent
+
+    @if $property2 == cursor
+        #{$property2}: $value2
+    @else 
+        cursor: pointer
+
+    @if $property3 == color
+        #{$property3}: $value3
+    @else 
+        color: #fff
+
+    @if $property4 == box-shadow
+        #{$property4}: $value4
+    @else 
+        box-shadow: inset 0 0 0 1px #fff
+
+    
+    
+@include boton("lenguaje:hover", background-color, transparent, cursor, pointer, null,null, box-shadow, inset 0 0 0 1px #fff)
+@include boton("cuenta:hover", background-color, transparent, cursor, pointer, null,null, box-shadow, inset 0 0 0 1px #fff)
+@include boton("devoluciones:hover", background-color, transparent, cursor, pointer, color, #fff, box-shadow, inset 0 0 0 1px #fff)
+@include boton("carrito:hover", background-color, transparent, cursor, pointer, color, #fff, box-shadow, inset 0 0 0 1px #fff)
+
+

@@ -1,0 +1,82 @@
+.explorar .contenedor .cont-items
+    .cont-categoria img
+        width: 130px
+
+.explorar .contenedor .cont-items
+    
+    .cont-categoria .cont-titulo2
+        padding-left: 15px
+        font-size: 20px 
+
+    .cont-categoria .cont-comprar
+        padding-left: 20px
+        padding-bottom: 20px
+        font-size: 15px
+
+        a
+            text-decoration: none
+            color: #3f9cc0 
+
+
+
+
+@mixin cont($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4, $property5, $value5, $property6, $value6, $property7, $value7, $property8, $value8, $property9, $value9)
+  .explorar .contenedor .cont-items .cont-categoria .cont-#{$name}
+
+    @if $property1 == width
+        #{$property1}: $value1
+    @else 
+        width: $value1
+
+
+    @if $property2 == display
+        #{$property2}: $value2
+    @else 
+        display: $value2
+    
+    @if $property3 == flex-direction
+        #{$property3}: $value3
+    @else 
+        flex-direction: $value3
+    
+
+    @if $property4 == justify-content
+        #{$property4}: $value4
+    @else 
+        justify-content: $value4
+    
+
+    @if $property5 == align-items
+        #{$property5}: $value5
+    @else 
+        align-items: $value5
+    
+
+    @if $property6 == background-color
+        #{$property6}: $value6
+    @else 
+        background-color: $value6
+
+
+    @if $property7 == color
+        #{$property7}: $value7
+    @else 
+        color: #fff
+
+
+    @if $property8 == height
+        #{$property8}: $value8
+    @else 
+        height: $value8
+
+
+    @if $property9 == font-weight
+        #{$property9}: $value9
+    
+
+@include cont("titulo2", width, 100%, display, flex, flex-direction, column, justify-content, center, align-items, flex-start, background-color, transparent, color, #000, height, 50px, font-weight, 700)
+@include cont("computer", width, 50%, display, flex, flex-direction, column, justify-content, center, align-items, center, background-color, transparent, color, #000, height, 150px, font-weight, 0)
+@include cont("videojuegos", width, 50%, display, flex, flex-direction, column, justify-content, center, align-items, center, background-color, transparent, color, #000, height, 140px, font-weight, 0)
+@include cont("camisa", width, 50%, display, flex, flex-direction, column, justify-content, center, align-items, center, background-color, transparent, color, #000, height, 140px, font-weight, 0)
+@include cont("reloj", width, 50%, display, flex, flex-direction, column, justify-content, center, align-items, center, background-color, transparent, color, #000, height, 140px, font-weight, 0)
+@include cont("comprar", width, 100%, display, flex, flex-direction, column, justify-content, center, align-items, flex-start, background-color, transparent, color, #3f9cc0, height, 140px, font-weight, 600)

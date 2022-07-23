@@ -1,0 +1,1485 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.navegacion {
+  background-color: #131921;
+  width: 100%;
+  height: 60px;
+  padding: 10px 10px 10px 10px;
+}
+
+.navegacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navegacion .logo-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navegacion .buscador {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navegacion .enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+}
+
+.navegacion .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-navegacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-navegacion .sub-menu, .sub-navegacion .sub-ofertas, .sub-navegacion .sub-servicio, .sub-navegacion .sub-listas, .sub-navegacion .sub-tarjetas, .sub-navegacion .sub-vender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar .contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar .cont-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar .cont-items .cont-inciar-sesion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+
+.explorar .cont-items .cont-inciar-sesion .cont-cambiar-lenguaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 1px;
+}
+
+.explorar .cont-items .cont-accesorios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar .cont-items .cont-vestidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+}
+
+.explorar .cont-items .cont-categoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.explorar .slider .muestras {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navegacion .boton {
+  width: 27%;
+  gap: 2px;
+}
+
+.navegacion .boton .boton-carrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navegacion .boton .boton-carrito p {
+  padding-top: 10px;
+}
+
+.navegacion .boton .boton-carrito img {
+  width: 40px;
+}
+
+.navegacion .boton .img-lenguaje {
+  width: 50px;
+}
+
+.navegacion .boton-lenguaje {
+  width: 60px;
+  height: 50px;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+}
+
+.navegacion .boton-cuenta {
+  width: 150px;
+  height: 50px;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.navegacion .boton-devoluciones {
+  width: 110px;
+  height: 50px;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.navegacion .boton-carrito {
+  width: 120px;
+  height: 50px;
+  outline: 0;
+  border: 0;
+  font-weight: bold;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.navegacion .boton-lenguaje:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+          box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navegacion .boton-cuenta:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+          box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navegacion .boton-devoluciones:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+          box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navegacion .boton-carrito:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+          box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navegacion .logo-main {
+  width: 110px;
+  height: 48px;
+}
+
+.navegacion .logo-main .logo {
+  width: 95px;
+  padding-top: 5px;
+}
+
+.navegacion .logo-main:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+          box-shadow: inset 0 0 0 1px #fff;
+  cursor: pointer;
+}
+
+.navegacion .buscador {
+  width: 57%;
+}
+
+.navegacion .buscador input {
+  width: 950px;
+  height: 40px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 20px;
+}
+
+.navegacion .enviar {
+  width: 120px;
+  height: 48px;
+  background-color: transparent;
+  color: #fff;
+  padding: 10px;
+}
+
+.navegacion .enviar p {
+  font-size: 13px;
+}
+
+.navegacion .enviar img {
+  width: 15px;
+  padding-top: 8px;
+}
+
+.navegacion .enviar:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #fff;
+          box-shadow: inset 0 0 0 1px #fff;
+  cursor: pointer;
+}
+
+.sub-navegacion {
+  width: 100%;
+  background-color: #232F3E;
+  height: 40px;
+  padding: 0px 15px 0px 15px;
+}
+
+.sub-navegacion .sub-menu {
+  gap: 5px;
+}
+
+.sub-navegacion .sub-menu .img-menu-bar {
+  width: 17px;
+}
+
+.sub-navegacion .sub-menu {
+  background-color: transparent;
+  padding: 5px 12px 5px 10px;
+  font-size: 14px;
+  border: 0;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sub-navegacion .sub-ofertas {
+  background-color: transparent;
+  padding: 5px 20px 5px 10px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 0;
+  color: #fff;
+}
+
+.sub-navegacion .sub-servicio {
+  background-color: transparent;
+  padding: 5px 20px 5px 10px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 0;
+  color: #fff;
+}
+
+.sub-navegacion .sub-listas {
+  background-color: transparent;
+  padding: 5px 20px 5px 10px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 0;
+  color: #fff;
+}
+
+.sub-navegacion .sub-tarjetas {
+  background-color: transparent;
+  padding: 5px 20px 5px 10px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 0;
+  color: #fff;
+}
+
+.sub-navegacion .sub-vender {
+  background-color: transparent;
+  padding: 5px 20px 5px 10px;
+  font-size: 14px;
+  border: 0;
+  font-weight: 0;
+  color: #fff;
+}
+
+/*HOvER*/
+.sub-navegacion .sub-menu:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+          box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+
+.sub-navegacion .sub-ofertas:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+          box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+
+.sub-navegacion .sub-servicio:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+          box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+
+.sub-navegacion .sub-listas:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+          box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+
+.sub-navegacion .sub-tarjetas:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+          box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+
+.sub-navegacion .sub-vender:hover {
+  -webkit-box-shadow: inset 0 0 0 1px #ffffff;
+          box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+
+.explorar {
+  width: 100%;
+}
+
+.explorar .contenedor .slider {
+  width: 100%;
+  height: 85vh;
+  background-image: url(images/slider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.explorar .contenedor .slider p {
+  font-size: 27px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.explorar .contenedor {
+  width: 95%;
+}
+
+.explorar .cont-items {
+  position: absolute;
+  z-index: 2;
+  background-color: transparent;
+  width: 92%;
+  height: 430px;
+  margin: 0px 0px 30px 0px;
+}
+
+/*.explorar .contenedor .cont-items
+    .cont-inciar-sesion
+        background-color: #fff
+
+    .cont-accesorios
+        background-color: black
+
+    .cont-vestidos
+        background-color: yellow */
+.explorar .contenedor .cont-inciar-sesion {
+  background-color: #fff;
+  padding: 2px;
+  width: 24%;
+  height: 100%;
+}
+
+.explorar .contenedor .cont-accesorios {
+  background-color: #fff;
+  padding: 2px;
+  width: 24%;
+  height: 100%;
+}
+
+.explorar .contenedor .cont-vestidos {
+  background-color: #fff;
+  padding: 2px;
+  width: 24%;
+  height: 100%;
+}
+
+.explorar .contenedor .cont-categoria {
+  background-color: #fff;
+  padding: 2px;
+  width: 24%;
+  height: 100%;
+}
+
+.explorar .contenedor .cont-items .cont-inciar-sesion {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.explorar .contenedor .cont-items .cont-inciar-sesion button {
+  padding: 10px 65px 10px 65px;
+  border: 0;
+  outline: 0;
+  background-color: #F7CA00;
+  border-radius: 20px;
+}
+
+.explorar .contenedor .cont-items .cont-inciar-sesion .cont-cambiar-lenguaje {
+  padding-top: 230px;
+  font-size: 10px;
+}
+
+.explorar .contenedor .cont-items .cont-inciar-sesion .cont-cambiar-lenguaje a {
+  color: #000;
+  text-decoration: none;
+}
+
+.explorar .contenedor .cont-items .cont-accesorios img {
+  width: 130px;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio0 {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio5 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio0 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: transparent;
+  color: #000;
+  height: 50px;
+  font-weight: 700;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio1 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 150px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio2 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 140px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio3 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 140px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio4 {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 140px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-accesorio5 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: transparent;
+  color: #3f9cc0;
+  height: 140px;
+  font-weight: 600;
+}
+
+.explorar .contenedor .cont-items .cont-vestidos .imagen3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.explorar .contenedor .cont-items .cont-vestidos img {
+  width: 280px;
+  padding-top: 15px;
+}
+
+.explorar .contenedor .cont-items .cont-vestidos .descripcion5 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-right: 220px;
+}
+
+.explorar .contenedor .cont-items .cont-vestidos .comprar-ahora {
+  padding-right: 200px;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.explorar .contenedor .cont-items .cont-vestidos .comprar-ahora a {
+  text-decoration: none;
+  color: #3f9cc0;
+  font-weight: 600;
+}
+
+.explorar .contenedor .cont-items .cont-categoria img {
+  width: 130px;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-titulo2 {
+  padding-left: 15px;
+  font-size: 20px;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-comprar {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-comprar a {
+  text-decoration: none;
+  color: #3f9cc0;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-titulo2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: transparent;
+  color: #000;
+  height: 50px;
+  font-weight: 700;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-computer {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 150px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-videojuegos {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 140px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-camisa {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 140px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  color: #000;
+  height: 140px;
+  font-weight: 0;
+}
+
+.explorar .contenedor .cont-items .cont-categoria .cont-comprar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: transparent;
+  color: #3f9cc0;
+  height: 140px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1543px) {
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio1 {
+    width: auto;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio2 {
+    width: auto;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio3 {
+    width: auto;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio4 {
+    width: auto;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    width: auto;
+  }
+  .explorar .contenedor .cont-items .cont-cambiar-lenguaje {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .navegacion .boton .boton-lenguaje {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    width: 500px;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1195px) {
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio3 {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio4 {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-videojuegos {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1148px) {
+  .navegacion .boton .boton-devoluciones {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio0 {
+    text-align: center;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-titulo2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-height: 802px) and (max-width: 1376px) {
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 802px) {
+  .explorar .contenedor .cont-items {
+    padding-top: 100px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios {
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio1 .audifonosimg {
+    width: 150px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio2 .tecladoimg {
+    width: 150px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio3 {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio4 {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos .vestidoimg {
+    width: 150px;
+  }
+  .explorar .contenedor .cont-items .cont-categoria {
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-camisas {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 678px) and (max-width: 1041px) {
+  .explorar .contenedor .slider .sliderimg {
+    width: 500px;
+  }
+  .navegacion .boton .boton-cuenta {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio1 .audifonosimg {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-height: 678px) and (max-width: 754px) {
+  .explorar .contenedor .slider p {
+    font-size: 25px;
+  }
+  .explorar .contenedor .slider .sliderimg {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-height: 844px) and (max-width: 390px) {
+  .navegacion .buscador {
+    padding-left: 20px;
+  }
+  .navegacion .buscador input {
+    width: 200px;
+  }
+  .navegacion .enviar {
+    display: none;
+  }
+  .navegacion .boton .boton-cuenta {
+    display: none;
+  }
+  .navegacion .boton .boton-carrito .carritoimg {
+    width: 30px;
+  }
+  .navegacion .boton .boton-carrito p {
+    display: none;
+  }
+  .explorar .contenedor .slider .sliderimg {
+    width: 350px;
+  }
+  .explorar .contenedor .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .slider .descripcion {
+    height: 100px;
+    padding-top: 30px;
+  }
+  .explorar .contenedor .slider .descripcion p {
+    font-size: 20px;
+  }
+  .explorar .contenedor .slider .muestras {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .cont-items {
+    position: relative;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    width: 100%;
+    height: 200px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    width: 100%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-videojuegos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sub-navegacion {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 851px) and (max-width: 393px) {
+  .navegacion .buscador {
+    padding-left: 20px;
+  }
+  .navegacion .buscador input {
+    width: 200px;
+  }
+  .navegacion .enviar {
+    display: none;
+  }
+  .navegacion .boton .boton-cuenta {
+    display: none;
+  }
+  .navegacion .boton .boton-carrito .carritoimg {
+    width: 30px;
+  }
+  .navegacion .boton .boton-carrito p {
+    display: none;
+  }
+  .explorar .contenedor .slider .sliderimg {
+    width: 350px;
+  }
+  .explorar .contenedor .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .slider .descripcion {
+    height: 100px;
+    padding-top: 30px;
+  }
+  .explorar .contenedor .slider .descripcion p {
+    font-size: 20px;
+  }
+  .explorar .contenedor .slider .muestras {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .cont-items {
+    position: relative;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    width: 100%;
+    height: 200px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    width: 100%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-videojuegos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sub-navegacion {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 1180px) and (max-width: 820px) {
+  .navegacion .buscador {
+    padding-left: 20px;
+  }
+  .navegacion .buscador input {
+    width: 320px;
+  }
+  .navegacion .boton .boton-carrito .carritoimg {
+    width: 30px;
+  }
+  .explorar .contenedor .slider .sliderimg {
+    width: 600px;
+  }
+  .explorar .contenedor .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .slider .descripcion {
+    height: 100px;
+    padding-top: 30px;
+  }
+  .explorar .contenedor .slider .descripcion p {
+    font-size: 30px;
+  }
+  .explorar .contenedor .slider .muestras {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .cont-items {
+    position: relative;
+    height: 1px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    width: 100%;
+    height: 200px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    width: 100%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-videojuegos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (max-height: 914px) and (max-width: 412px) {
+  .navegacion .buscador {
+    padding-left: 20px;
+  }
+  .navegacion .buscador input {
+    width: 200px;
+  }
+  .navegacion .enviar {
+    display: none;
+  }
+  .navegacion .boton .boton-cuenta {
+    display: none;
+  }
+  .navegacion .boton .boton-carrito .carritoimg {
+    width: 30px;
+  }
+  .navegacion .boton .boton-carrito p {
+    display: none;
+  }
+  .explorar .contenedor .slider .sliderimg {
+    width: 350px;
+  }
+  .explorar .contenedor .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .slider .descripcion {
+    height: 100px;
+    padding-top: 30px;
+  }
+  .explorar .contenedor .slider .descripcion p {
+    font-size: 20px;
+  }
+  .explorar .contenedor .slider .muestras {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .explorar .contenedor .cont-items {
+    position: relative;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .explorar .contenedor .cont-items .cont-inciar-sesion {
+    width: 100%;
+    height: 200px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio3 {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-accesorios .cont-accesorio4 {
+    display: none;
+  }
+  .explorar .contenedor .cont-items .cont-vestidos {
+    width: 100%;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria {
+    width: 100%;
+    height: 300px;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-videojuegos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .explorar .contenedor .cont-items .cont-categoria .cont-reloj {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sub-navegacion {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */
