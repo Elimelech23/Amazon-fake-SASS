@@ -23,10 +23,10 @@
 @mixin boton($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4, $property5, $value5, $property6, $value6, $property7, $value7)
   .navegacion .boton-#{$name}
 
-    @if $property1 == width
+    @if $property1 == width and $value1 
         #{$property1}: $value1
     @else 
-        width: $value1
+        width: $value1  
 
 
     @if $property2 == height
